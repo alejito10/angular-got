@@ -68,7 +68,7 @@ button {
     height: auto;
 
     cursor: pointer;
-  } 
+  }
 }
 
 .got-spinner {
@@ -101,3 +101,11 @@ button {
   }
 
 }
+@media screen and (max-width: 1025px){
+  .c-got-home{
+    background-image: url('../src/assets/img/home.png');
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+}
+
